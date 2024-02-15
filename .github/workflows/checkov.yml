@@ -4,6 +4,8 @@ on:
     pull_request:
     # Allows you to run this workflow manually from the Actions tab
     workflow_dispatch:
+    schedule:
+        - cron: '42 16 * * 1'
 
 # These permissions are needed to interact with GitHub's OIDC Token endpoint and
 # for github/codeql-action/upload-sarif to upload SARIF results.
@@ -18,4 +20,4 @@ jobs:
     checkov:
         name: "checkov"
 
-        uses: g13z/gha-workflows/.github/workflows/checkov.yml@729f56c3e51296cb2fd04695cf3ecdb2e038f068 # v1.1.2
+        uses: g13z/gha-workflows/.github/workflows/checkov.yml@ed36e042ff34a54d4a887f2a395fbee9d8ff2eda # v1.3.0
