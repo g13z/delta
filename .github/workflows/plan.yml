@@ -9,7 +9,7 @@ jobs:
     plan:
         name: "Plan"
 
-        uses: g13z/gha-workflows/blob/main/.github/workflows/plan.yml
+        uses: g13z/gha-workflows/blob/main/.github/workflows/plan.yml@b8a393a06d7985460d3c2612c6ec86873fc09fc9 # v1.0.0
         with:
             region: us-east-1
         secrets:
