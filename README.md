@@ -1,2 +1,3 @@
-# delta
+# Delta
+
 Team Alpha's IaC
