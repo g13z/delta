@@ -5,6 +5,11 @@ terraform {
       version = "5.36.0"
     }
   }
+
+  backend "s3" {
+    encrypt              = true
+    workspace_key_prefix = "delta"
+  }
 }
 
 provider "aws" {
