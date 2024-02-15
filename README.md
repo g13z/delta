@@ -1,3 +1,3 @@
 # Delta
 
-Team Alpha's IaC
+Team Alpha's IaC repository.
