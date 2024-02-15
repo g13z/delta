@@ -4,6 +4,8 @@ on:
     pull_request:
     # Allows you to run this workflow manually from the Actions tab
     workflow_dispatch:
+    schedule:
+        - cron: '42 16 * * 1'
 
 # These permissions are needed to interact with GitHub's OIDC Token endpoint and
 # for github/codeql-action/upload-sarif to upload SARIF results.
