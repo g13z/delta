@@ -9,7 +9,7 @@ jobs:
     plan:
         name: "Plan"
 
-        uses: rewindio/github-action-terraform-aws/.github/workflows/plan.yml@v1
+        uses: g13z/gha-workflows/blob/main/.github/workflows/plan.yml
         with:
             region: us-east-1
         secrets:
