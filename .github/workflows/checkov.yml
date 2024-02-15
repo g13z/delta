@@ -18,4 +18,4 @@ jobs:
     checkov:
         name: "checkov"
 
-        uses: g13z/gha-workflows/.github/workflows/checkov.yml@729f56c3e51296cb2fd04695cf3ecdb2e038f068 # v1.1.2
+        uses: g13z/gha-workflows/.github/workflows/checkov.yml@16534145362d4550591a7f0d6620ec5465ec1e70 # v1.2.0
